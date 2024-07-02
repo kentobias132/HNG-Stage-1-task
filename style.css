@@ -2,12 +2,27 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    /* background: #f0f0f0; */
+    background: #000000;
+    color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    background-image: url('slackImg.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/* 
 header {
     display: flex;
     align-items: center;
@@ -27,8 +42,11 @@ header {
     padding: 20px;
     background: white;
     border-radius: 8px;
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
     text-align: center;
+}
+
+.content h2 {
+    text-align: left;
 }
 
 .content img {
@@ -43,7 +61,7 @@ header {
 .content p {
     line-height: 1.6;
     text-align: left;
-}
+} */
 
 footer {
     text-align: center;
